@@ -3,7 +3,7 @@ from sections.view_contacts import run as view_contacts
 def run():
     contactos = db.read()
     view_contacts()
-    index_contacto = int(input("\t[+] Selecciona un contacto: ")) - 1
+    index_contacto = int(input("[+] Selecciona un contacto: ")) - 1
     contactos.remove(contactos[index_contacto])
 
     db.save(contactos)

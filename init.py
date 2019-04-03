@@ -12,15 +12,14 @@ operations = {
 }
 
 while True:
-        print('\n-----------------------------')
-        print('[*] Operaciones:')
-        print('\t[1] Añadir contacto')
-        print('\t[2] Ver contactos')
-        print('\t[3] Editar contactos')
-        print('\t[4] Eliminar contacto')
-        print('\t[5] Salir')
+        print('\nMenú\n-----------------------------')
+        print('[1] Añadir contacto')
+        print('[2] Ver contactos')
+        print('[3] Editar contactos')
+        print('[4] Eliminar contacto')
+        print('[5] Salir')
 
-        option = input('[+] Selecciona una: ')
+        option = input('\n[+] Selecciona una: ')
         function = operations.get(option, lambda: print('Operación no válida'))
         print("\n")
         function()
