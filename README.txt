@@ -1,5 +1,21 @@
 AgendaNadela es una utilidad de consola que te permite gestionar una lista de contactos con sus respectivos números de teléfono.
 
+# Requisitos
+- Python 3.0 o superior
+
+# Instalación
+Este programa no requiere ninguna librería especial para su instalación.
+Simplemente clona el repositorio desde la linea de comandos o descargate el código vía web.
+```
+git clone https://github.com/aperpen/SchoolPythonAgenda.git
+```
+
+# Iniciar el programa
+En una terminal, sitúate en el directorio donde está el código y escribe:
+```
+python init.py
+```
+
 # Uso del programa:
 ## 1.- Menú principal
 Al iniciar el programa se desplegará una lista de opciones numeradas del 1 al 5:
